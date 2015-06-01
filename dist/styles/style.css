@@ -1,0 +1,55 @@
+#menu {
+	border: 2px solid black;
+	height:800px;
+}
+
+#main div {
+	border: 2px solid black;
+	text-align: center;
+	background-color: #990d00;
+}
+
+#main div a {
+	color:white;
+}
+
+#play-game {
+	text-align: center;
+}
+
+#play-game div {
+	margin-top: 50px;
+	background-color: #fff3c5;
+}
+
+#play-game h3 {
+	margin-top: 50px;
+	color:#fff3c5;
+}
+
+#leaderboards li{
+	text-align: left;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+#leaderboards {
+	margin-top: 20px;
+	color:#fff3c5;
+}
+
+#set div {
+	text-align: center;
+	border: 2px solid #fff3c5;
+	margin-top: 20px;
+}
+
+#set {
+	margin-top: 100px;
+	color:#fff3c5;
+	font-weight: bold;
+}
+
+
+
