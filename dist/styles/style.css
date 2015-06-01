@@ -1,6 +1,7 @@
 #menu {
 	border: 2px solid black;
 	height:800px;
+	background-color: #6e2929;
 }
 
 #main div {
@@ -51,5 +52,21 @@
 	font-weight: bold;
 }
 
+#load div {
+	border: 2px solid black;
+	font-size: 2em;
+	background-color: green;
+	color:white;
+	border-radius: 5px;
+	text-align: center;
+	margin-top: 300px;
+}
+
+#intro {
+	border: 5px solid #fff3c5;
+	font-size: 3em;
+	color:#fff3c5;
+	text-align: center;
+}
 
 
