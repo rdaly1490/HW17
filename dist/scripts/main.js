@@ -55,5 +55,13 @@ $("#intro").hide();
 	var myRouter = new Router();
 	Backbone.history.start();
 
+	$("#main div a").on("click", function(e) {
+		var $target = $(e.target);
+		$("#main div").removeClass("active");
+		$("#main div").css("backgroundColor", "#990d00");
+		$target.parent().addClass("active");
+		$(".active").css("backgroundColor", "green");
+	});
+
 
 });
